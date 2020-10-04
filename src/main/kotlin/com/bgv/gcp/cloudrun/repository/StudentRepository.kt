@@ -1,7 +1,6 @@
 package com.bgv.gcp.cloudrun.repository
 
-import org.springframework.data.repository.reactive.ReactiveCrudRepository
+import com.bgv.gcp.cloudrun.model.Student
+import org.springframework.data.mongodb.repository.ReactiveMongoRepository
 
-interface EventReposidtory : ReactiveMongoRepository<Student:String>{
-    fun findByFirstName(firstName: String): Mono(Student)
-}
+interface StudentRepository : ReactiveMongoRepository<Student, String>
