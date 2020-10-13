@@ -30,7 +30,7 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
 
-      - name: Build with Maven
+      - name: Build
         run: mvn -B package --file pom.xml
 
       - name: Publish to GitHub Packages Apache Maven
