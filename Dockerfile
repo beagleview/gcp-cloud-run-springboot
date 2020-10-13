@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM adoptopenjdk/openjdk11:alpine-jre
 VOLUME /tmp
 
 # Make port 8080 available to the world outside container
