@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.bgv.gcp</groupId>
-    <artifactId>cloudrun</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>gcp-cloudrun</artifactId>
+    <version>0.0.1</version>
     <name>cloudrun</name>
     <description>Demo project GCP Cloud run with Spring Boot</description>
 
