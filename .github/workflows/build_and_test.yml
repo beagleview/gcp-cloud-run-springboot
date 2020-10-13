@@ -38,4 +38,5 @@ jobs:
           password: ${{ secrets.CI_TOKEN }}
           registry: docker.pkg.github.com
           repository: beagleview/gcp-cloud-run-springboot/gcp-cloudrun
+          tags: 0.0.1
           tag_with_ref: true
