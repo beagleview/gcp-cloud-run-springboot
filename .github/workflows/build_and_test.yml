@@ -44,5 +44,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.CI_TOKEN }}
           registry: docker.pkg.github.com
-          repository: beagleview/gcp-cloud-run-springboot/gcp-cloudrun-0.0.1
+          repository: beagleview/gcp-cloud-run-springboot/gcp-cloudrun-0.0.2
           tag_with_ref: true

@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.bgv.gcp</groupId>
     <artifactId>gcp-cloudrun</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>cloudrun</name>
     <description>Demo project GCP Cloud run with Spring Boot</description>
 
