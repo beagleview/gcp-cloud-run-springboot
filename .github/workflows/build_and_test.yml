@@ -39,7 +39,7 @@ jobs:
 #          GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
 
       - name: Push to GitHub Docker Packages
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v1.1.1
         with:
           username: ${{ github.actor }}
           password: ${{ secrets.CI_TOKEN }}
